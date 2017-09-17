@@ -31,8 +31,15 @@ body {
 
 /*Changing text link color, removing underline on links*/
 a {
-	color: #999A5;
+	display: block;
+	padding: 4px;
 	text-decoration: none;
+	color: #777777;
+}
+
+/*Change link colors on hover*/
+a:hover {
+	color: black;
 }
 
 /*Setting default header fonts and sizes*/
@@ -70,22 +77,84 @@ header {
 	background: #4aaaa5;
 	width: 250px;
 	height: 90px;
+	float: relative;
 /*	float: relative;*/
 	align-items: center;
 }
 
-
-
-a {
-	display: block;
-	padding: 8px;
-	text-decoration: none;
-	color: #777777;
+#nameText {
+	margin: auto;
+	color: white;
 }
 
-/*Change link colors on hover*/
-a:hover {
-	color: black;
+/*Adjust location of Nav Menu*/
+nav {
+	height: 20px;
+	float: right;
+	text-align: center;
+}
+
+.navigation {
+	background: white;
+	height: 100%;
+	padding: 0px 15px;
+}
+
+/*Add navigation seperators*/
+.seperation {
+	background: #efefef;
+	width: 1px;
+	height: 100%;
+}
+
+#PageContents {
+	width: 960px;
+	margin: 38px auto;
+	display: flex;
+	/*float: relative;*/
+	justify-content: space-between;
+
+}
+
+/*Create box for content*/
+section, aside {
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	width: 588px;
+	padding: 40px 30px 30px 30px;
+}
+
+/*Correcting spacing in about me section*/
+section p {
+	line-height: 190%;
+}
+
+#grey_line {
+	background: #dddddd;
+	height: 3px;
+	margin: 30px 0 20px 0;
+}
+
+aside {
+	width: 208px;
+	height: 133px;
+	padding: 30px 30px 35px 30px;
+}
+
+aside img {
+	width: 64px;
+	height: 64px;
+}
+
+#small_grey_line {
+	background: #eeeeee;
+	height: 2px;
+	margin: 20px 0 22px 0;
+}
+
+#social_media {
+/*	float: relative;*/
+	justify-content: space-between;
 }
 
 /*Footer Formatting*/
