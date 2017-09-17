@@ -12,33 +12,74 @@
 <!--Positioning footer to bottom-->
 
 <div class="content">
-	<div class="content-inside">
 
 <!--Name Box-->
-	<section id="Header">
-	<h1>Kyle Becker</h1>
+<header>
+<div id="headerBox">
+	<div id="nameTextBox">
+	<h1 id="nameText">Kyle Becker</h1>
+	</div>
 
 <!--Navigation Menu-->
 	<nav>
-		<ul>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="portfolio">Portfolio</a></li>
-			<li><a href="index.html">About</a></li>
+		<!--About-->
+		<div class="navigation"><p><a href="index.html">About</a></p></div>
 
-		</ul>
+			<!-- Seperation Bar -->
+			<div class="seperation"></div>
+
+		<!-- Portfolio -->
+		<div class="navigation"><p><a href="portfolio.html">Portfolio</a></p></div>
+
+			<!-- Seperation Bar -->
+			<div class="seperation"></div>
+	
+		<!-- Contact -->
+		<div class="Contact"><p><a href="contact.html">Contact</a></p></div>
+		
 	</nav>
+</div>
+</header>
+
+<!-- About Me information -->
+<div id="PageContents">
+	<section>
+		<h2>About Me</h2>
+		<div id="grey_line"></div>
+		<img id="selfie" src="assets/images/profileImage.jpg" alt="Myself">
+
+		<p>Here is the first paragraph about me</p>
+		<br>
+		<p>here is another paragraph about me</p>
 	</section>
 
-<section id="About me">
-<p>Here is the first paragraph about me</p>
-<br>
-<p>here is another paragraph about me</p>
-</section>
+<!-- Social Media Bar -->
+	<aside>
+		<h3>Connect with Me</h3>
+		<div id="small_grey_line"></div>
+		<div id="social_media">
+
+			<!-- GitHub -->
+			<a href="https://github.com/kmbecker" target="_blank">
+			<img src="assets/images/github.png" alt="GitHub"></a>
+
+			<!-- LinkedIn -->
+			<a href="https://www.linkedin.com/in/kyle-becker-aboc-104b3140/" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+
+			<!-- StackOverflow -->
+			<a href="https://stackoverflow.com/users/8210256/kyle-becker" target="_blank">
+			<img src="assets/images/stackoverflow.png" alt="StackOverflow"></a>
+		</div>
+	</aside>
 </div>
+
+<!-- Keep Foother at Bottom -->
+<div class="bottomFooter"></div>
 </div>
+
 <!--Footer-->
-<footer class="footer">
-	&copy;2017 Kyle Becker
+<footer>
+	<div id="footerText">&copy; Copyright 2017 Kyle Becker</div>
 </footer>
 
 </body>
