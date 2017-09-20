@@ -62,12 +62,12 @@ header {
 
 /*Header Box Not working properly*/
 #headerBox {
-	width: 960px;
+	/*width: px;*/
 	height: 90px;
 	margin: 0px auto;
 	/*align header block using floats*/
-/*	float: left;*/
-/*	display: flex;*/
+	/*float: left;*/
+	/*display: flex;*/
 	align-items: center;
 
 }
@@ -77,22 +77,33 @@ header {
 	background: #4aaaa5;
 	width: 250px;
 	height: 90px;
-/*	display: flex;*/
-/*	float: relative;*/
+	/*display: flex;*/
+	float: left;
 	align-items: center;
 }
 
 /*Changing font text and aligning text*/
 #nameText {
-	margin: auto;
+	margin: 25px;
 	color: white;
 }
 
 /*Adjust location of Nav Menu*/
 nav {
 	height: 20px;
-/*	display: flex;
-	justify-content: flex-end;*/
+	float: right;
+	/*display: flex;*/
+	/*justify-content: flex-end;*/
+}
+
+.clearfix::after {
+	content:"";
+	display:block;
+	clear: both;
+}
+
+.nav div {
+	float: left;
 }
 
 .navigation {
@@ -111,10 +122,14 @@ nav {
 #PageContents {
 	width: 960px;
 	margin: 38px auto;
-/*	display: flex;*/
+	clear: both;
+	/*display: flex;*/
 	/*float: relative;*/
-/*	justify-content: space-between;*/
+	justify-content: space-between;
 
+}
+section {
+	float: left;
 }
 
 /*Create box for content*/
@@ -140,6 +155,7 @@ aside {
 	width: 208px;
 	height: 133px;
 	padding: 30px 30px 35px 30px;
+	float: right;
 }
 
 aside img {
@@ -154,8 +170,8 @@ aside img {
 }
 
 #social_media {
-/*	display: flex;*/
-
+	
+	
 }
 
 /*Footer Formatting*/
@@ -164,6 +180,8 @@ footer {
 	border-top: 9px solid #4aaaa5;
 	height: 100px;
 	align-items: center;
+	clear: both;
+	/*display: flex*/
 }
 
 #footerText {
@@ -176,5 +194,5 @@ footer {
 	margin: 10px 25px 10px 0px;
 	height: 200px;
 	width: 200px;
-/*	float: left;*/
+	float: left;
 }
