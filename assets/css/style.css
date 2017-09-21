@@ -15,7 +15,7 @@ html, body {
 
 /*Pushing Footer Down*/
 .bottomFooter{
-	height: 107px;
+	height: 109px;
 }
 
 /*Adding Background and removing spacing on sides and top, adding default font*/
@@ -62,12 +62,8 @@ header {
 
 /*Header Box Not working properly*/
 #headerBox {
-	/*width: px;*/
 	height: 90px;
 	margin: 0px auto;
-	/*align header block using floats*/
-	/*float: left;*/
-	/*display: flex;*/
 	align-items: center;
 
 }
@@ -77,7 +73,7 @@ header {
 	background: #4aaaa5;
 	width: 250px;
 	height: 90px;
-	margin-left: 8%;
+	margin-left: 9%;
 	float: left;
 	align-items: center;
 }
@@ -93,7 +89,7 @@ header {
 nav {
 	height: 20px;
 	margin-top: 30px;
-	margin-right: 8%;
+	margin-right: 7%;
 	float: right;
 }
 
@@ -129,6 +125,7 @@ nav {
 }
 section {
 	float: left;
+	margin-bottom: 30px;
 }
 
 /*Create box for content*/
@@ -151,10 +148,14 @@ section p {
 }
 
 aside {
-	width: 208px;
+	width: 210px;
 	height: 133px;
 	padding: 30px 30px 35px 30px;
 	float: right;
+}
+
+.spacing {
+	float: left;
 }
 
 aside img {
@@ -168,9 +169,9 @@ aside img {
 	margin: 20px 0 22px 0;
 }
 
-#social_media {
-	
-	
+#social {
+	width: 60px;
+	height: 60px;
 }
 
 /*Footer Formatting*/
@@ -178,16 +179,14 @@ footer {
 	background: #666666;
 	border-top: 9px solid #4aaaa5;
 	height: 100px;
-	align-items: center;
 	clear: both;
-	/*display: flex*/
 }
 
 #footerText {
 	font-size: 12px;
 	color: #cccccc;
 	align-content: center;
-	/*margin-left: 50%;*/
+	/*margin-left: 25%;*/
 	padding: 25px;
 }
 
