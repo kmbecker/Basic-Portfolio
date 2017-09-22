@@ -186,8 +186,10 @@ footer {
 	font-size: 12px;
 	color: #cccccc;
 	align-content: center;
-	/*margin-left: 25%;*/
+	margin-left: auto;
+	margin-right: auto;
 	padding: 25px;
+	text-align: center;
 }
 
 /*About me settings*/
@@ -197,3 +199,48 @@ footer {
 	width: 200px;
 	float: left;
 }
+
+/*Portfolio Page*/
+
+.portfolio-title {
+	background: #4aaaa5;
+	width: 280px;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	/*display: flex;*/
+	/*justify-content: center;*/
+}
+
+.porttext {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	/*display: flex;*/
+	/*justify-content: center;*/
+
+}
+
+.photos {
+	height: 200px;
+	width: 280px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+	position: relative;
+	/*display: flex;*/
+	/*justify-content: center;*/
+}
+
+.portfolio {
+	position: relative;
+}
+
+/*#portfolio {
+	float: left;
+}*/
+
+/*Contact Page*/
+
+
+
+
